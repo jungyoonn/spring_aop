@@ -1,0 +1,8 @@
+AOP study
+
+Aspect = Advice + PointCut
+Target : 대상
+Advice : 할일
+JoinPoint : Advice 적용 대상
+PointCut : 조건식
+Weaving : Aspect 과정 전체, 흐름 양상
