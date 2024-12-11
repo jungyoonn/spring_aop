@@ -3,6 +3,12 @@ AOP study
 Aspect = Advice + PointCut
 Target : 대상
 Advice : 할일
-JoinPoint : Advice 적용 대상
+JoinPoint : Advice 적용 대상(method)
 PointCut : 조건식
 Weaving : Aspect 과정 전체, 흐름 양상
+
+spring aop : 기본적인 aop 적용법
+단점 : PointCut 적용이 어려움
+       메서드 이름으로만 기준
+
+AspectJ aop : expression 사용으로 pc 적용, 직관적인 문법, 넓은 적용 범위
