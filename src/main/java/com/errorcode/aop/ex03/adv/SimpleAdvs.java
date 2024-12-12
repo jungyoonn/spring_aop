@@ -8,7 +8,7 @@ public class SimpleAdvs extends StaticMethodMatcherPointcutAdvisor{
 
     @Override
     public boolean matches(Method method, Class<?> targetClass) {
-        return false;
+        return method.getName().startsWith("one");
     }
     
 }
