@@ -34,7 +34,13 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
 	// https://mvnrepository.com/artifact/org.aspectj/aspectjweaver
+	implementation 'org.aspectj:aspectjweaver:1.9.22.1'
 	runtimeOnly 'org.aspectj:aspectjweaver:1.9.22.1'
+
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjrt
+	implementation 'org.aspectj:aspectjrt:1.9.22.1'
+	runtimeOnly 'org.aspectj:aspectjrt:1.9.22.1'
+
 
 }
 
