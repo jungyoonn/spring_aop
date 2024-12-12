@@ -11,4 +11,8 @@ public class First {
     public void two() {
         log.info("First.two()");
     }
+
+    public void two2() {
+        log.info("First.two2()");
+    }
 }
